@@ -5,13 +5,16 @@ nav {
     justify-content: flex-end;
     padding-right: 50px;
     align-items: inherit;
+    background-color: white;
 }
+
 
 .navbar-nav {
     display: flex;
     justify-content: space-around;
     justify-content: flex-end;
     text-decoration: none;
+    background-color: white;
 }
 
 a {
@@ -24,4 +27,42 @@ a {
 
 a:hover {
     color: red;
+}
+
+.container-fluid {
+    background-color: black;
+}
+
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+    background-color: black;
+}
+
+#tradesiesIntro {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+
+#tradesiesTitle {
+    font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 200%;
+    padding: 50px 200px 0px 0px;
+    color: white;
+}
+
+img.mediumLogo {
+    height: 200px;
+    width: 200px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    padding-left: 300px;
+    background-color: black;
 }
