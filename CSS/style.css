@@ -1,3 +1,7 @@
+* {
+    border: 1px solid red;
+}
+
 nav {    
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -24,4 +28,78 @@ a {
 
 a:hover {
     color: red;
+}
+
+#tradesiesIntro {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+    background-color: black;
+}
+
+#tradesiesTitle {
+    font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 200%;
+    padding: 50px 200px 0px 0px;
+    color: white;
+}
+
+img.mediumLogo {
+    padding: 0px 150px 0px 100px;
+    height: 200px;
+    width: 200px;
+}
+
+.caseStudy {
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+img.introImage {
+    width: 800px;
+}
+
+.problemSolution {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    color: white;
+    background-color: #7c4cfc;
+}
+
+#problem {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+
+#solution {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    padding-right: 200px;
+}
+
+.explanations {
+    display: flex;
+    height: 277px;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: white;
+    background-color: #7c4cfc;
+}
+
+#theProblem {
+    padding: 10px 10px 10px 10px;
+    width: 250px;
+    padding-left: 0px 0px 0px 100px;
+}
+
+#theSolution {
+    padding: 10px 10px 10px 10px;
+    width: 250px;
+    padding: 0px 125px 5px 0px;
+    margin-right: 20px;
 }
